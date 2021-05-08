@@ -1,3 +1,59 @@
 main{
     background-color: khaki ;
 }
+
+#mainDiv {
+    display: grid;
+    place-items: center;
+}
+
+
+#listMeals {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+#mealInfo {
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px 300px;
+}
+
+#mealInfo img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+#mealInfo h2{
+    margin: 25px 20px;
+}
+
+
+.ingredients {
+    margin: 25px 10px;
+}
+
+
+.meals {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 240px;
+    margin: 10px;
+}
+
+
+.meal-name{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+.meals img{
+    width: 240px;
+    border-radius: 5px;
+}
+
